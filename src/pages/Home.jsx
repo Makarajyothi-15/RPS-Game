@@ -37,13 +37,13 @@ const Home = () => {
       setResult("You Win! ");
       
       
-      if (newScore === 10) setWinner("🎉 You Won the Game!");
+      if (newScore === 10) setWinner("You Won the Game!");
     } else {
       const newScore = computerScore + 1;
       setComputerScore(newScore);
       setResult("Computer Wins! ");
       
-      if (newScore === 10) setWinner(" Computer Won the Game!");
+      if (newScore === 10) setWinner("Computer Won the Game!");
     }
   };
 
